@@ -2,23 +2,28 @@
     display: flex;
     background-color: rgb(0, 213, 255);
     border-color: black;
+    text-align: center;
 }
 
 #mainID {
     display: flex;
     border-color: black;
+    text-align: justify;
+    text-indent: 0ch;
 }
 
 #headerID {
     flex-direction: column;
     background-color: rgb(42, 128, 165);
     border-color: black;
+    text-align: center;
 }
 
 body, main{
     flex-direction: column;
     background-color: rgb(42, 136, 165);
     border-color: black;
+    text-align: center;
 }
 
 #footerid {
@@ -59,11 +64,28 @@ P {
     color: blue;
 }
 
-.tableClass {
-    color: darkcyan;
+table {
+    color: rgb(69, 0, 139);
     border-color: black;
+    text-align: center;
+    text-indent: right;
+}
+
+td {
+   text-align: center;
+   text-align: justify;
+}
+tr {
+    text-align: center;
+    text-align: justify;
 }
 
 li {
     color: darkcyan;
+    text-align: center;
+}
+
+.twitter-tweet {
+    text-align: inherit;
+    text-indent: inherit;
 }
