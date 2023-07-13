@@ -208,7 +208,7 @@
     display: flex;
   }
 
-  .nav-item + .nav-item {
+    .new-nav {
     margin: var(--nav-item-margin);
   }
 
