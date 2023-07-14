@@ -1,0 +1,1 @@
+CSS advance to be updated with more information, in terms of what the project requires
