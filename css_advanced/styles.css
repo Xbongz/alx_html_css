@@ -150,4 +150,69 @@
 
 }
 
+.qoute-block {
+    width: 1440px;
+    height: 392px;
+    flex-shrink: 0;
+  
+    
+    
+}
 
+.inner-qoute-block {
+    width: 943px;
+    height: 160px;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.qoute-text q {
+     color: #FFF;
+     /* font family */
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 33.6x;
+}
+
+.qoute-author{
+    color: #FFF;
+    /*font family here */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px;
+}
+
+.qouter p {
+    color: #FFF;
+    /* font family here */
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px;
+
+}
+ body {
+    background-color: #071629;
+ }
+
+ .video-block {
+    width: 144.15px;
+    height: 1055px;
+    flex-shrink: 0;
+ }
+
+ .videoBlock-tittle {
+    color: #071629;
+    text-align: center;
+    /* family fonts here */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+ }
