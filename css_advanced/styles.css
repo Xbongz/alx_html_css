@@ -2,6 +2,52 @@
 .header {
     width: 1103.41px;
     height: 29.46px;
-    margin: auto;
+    flex-shrink: 0;
+}
+
+.container {
     display: flex;
+    height: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 52px;
+    flex-shrink: 0;
+    color: #FFFF;
+    flex-wrap: wrap;
+
+}
+
+.header-logo {
+    width: 167.016px;
+    height: 29.461px;
+    flex-shrink: 0;
+}
+
+.links-menu {
+    font-family: MyFonts;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: flex-end;
+}
+
+@font-face {
+    font-family: MyFonts;
+    src: url(C:\Users\Admin\Downloads);
+}
+
+.main-section {
+    width: 1440px;
+    height: 1093px;
+    flex-shrink: 0;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-container {
+    
 }
