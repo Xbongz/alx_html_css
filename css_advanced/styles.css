@@ -137,31 +137,44 @@
 }*/
 
 .button {
-    width: 162px;
-    height: 44px;
-    flex-shrink: 0;
-    border-radius: 22px;
-    background: #c271FF;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0, 50);
-    text-align: center;
-    justify-content: center;
-    flex-direction: row;
-    padding-bottom:  0px;
-    padding-left: 750px;
-    padding-right: 750px;
-    justify-items: center;
-    align-content: center;
+   width: 662px;
+   height: 30px;
+   flex: 0;
+   display: flex;
+   align-items: center;
+   align-content: center;
+   flex-grow: inherit;
+   color: #c271FF;
+   text-align: center;
+   /* font family here */
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   justify-items: center;
+   justify-self: center;
+   justify-content: center;
+   padding-left: 500px;
+   border-radius: 200px;
 }
 
-/*.button P {
-    color: #FFF;
-    text-align: center;
-    font-size: 14px;
-  /*  font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    justify-content: center;
-}*/
+  .button button {
+   color: #FFF;
+   text-align: center;
+   /* font family here */
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: normal;
+   background-color: #c271FF;
+   display: flex;
+   align-items: center;
+   align-content: center;
+   flex-grow: inherit;
+   justify-items: center;
+   justify-content: center;
+   border-radius: 200px;
+}
   
 .Three-word-block {
     color: #FFF;
@@ -360,39 +373,95 @@
 
 
  .video-block {
-    width: 1228px;
-    height: 450px;
+    width: 1708px;
+    height: 850px;
     flex-shrink: 0;
     background-color: #FFF;
-    flex-direction: row;
+    flex-direction: row-reverse;
     display: flex;
     align-content: center;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: center;
+    align-content: space-around;
 
  }
 
- /*.videoBlock-tittle {
+ .video-block- h2 {
     color: #071629;
     text-align: center;
     /* family fonts here */
-   /** font-size: 32px;
+   font-size: 32px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     justify-content: center;
+    flex-direction: column;
+    align-content: space-around;
+    display: flex;
 
  }
 
- .video1 {
+ .video1 .sad-smile {
     width: 255px;
     height: 335px;
     flex-shrink: 0;
     justify-content: center;
+    background-image: url(images/6.png);
+    background-repeat: no-repeat;
  }
 
- .video-container {
+
+ .video1 .cry-smile {
+    width: 255px;
+    height: 335px;
+    flex-shrink: 0;
+    justify-content: center;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+ }
+
+ .video1 .angry-smile {
+   width: 255px;
+   height: 335px;
+   flex-shrink: 0;
+   justify-content: center;
+   background-image: url(images/8.png);
+   background-repeat: no-repeat;
+}
+
+.video1 .happy-smile {
+   width: 255px;
+   height: 335px;
+   flex-shrink: 0;
+   justify-content: center;
+   background-image: url(images/9.png);
+   background-repeat: no-repeat;
+}
+
+.basics-text {
+   color: #c271FF;
+   /* font family here */
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 27px;
+}
+
+.insideText {
+   width: 242px;
+   color: rgba(7, 22, 41, 0, 50);
+   /* font family */
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+   justify-items: center;
+
+}
+
+
+
+ /*.video-container {
     flex-direction: row;
     display: flex;
     align-content: center;
@@ -428,14 +497,7 @@
     align-items: center;
  }
 
- .basics-text {
-    color: #c271FF;
-    /* font family here */
-   /* font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 27px;
- }*/
+ */
 
  .ratings {
     flex-direction: row;
@@ -455,13 +517,14 @@
  }
  .membership {
     width: 1440px;
-    height: 502px;
+    height: 402px;
     flex-shrink: 0;
     flex-direction: row;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
+    padding-left: 40px;
  
  
  }
@@ -518,8 +581,8 @@
  }
 
  .mem-button {
-    width: 162px;
-    height: 44px;
+    width: 662px;
+    height: 30px;
     flex: 0;
     display: flex;
     align-items: center;
@@ -535,13 +598,15 @@
     justify-items: center;
     justify-self: center;
     justify-content: center;
+    padding-left: 550px;
+    border-radius: 200px;
  }
 
  .mem-button button {
     color: #FFF;
     text-align: center;
     /* font family here */
-    font-size: 32px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -552,11 +617,12 @@
     flex-grow: inherit;
     justify-items: center;
     justify-content: center;
+    border-radius: 200px;
  }
 
  .faq-container {
-    width: 920px;
-    height: 707px;
+    width: 1820px;
+    height: 307px;
     flex-shrink: 0;
     background-color: #FFF;
     justify-content: center;
@@ -623,7 +689,8 @@
     align-items: center;
     align-content: center;
     flex-grow: inherit;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 100px;
  }
 
  .footer.layout {
@@ -638,4 +705,15 @@
  .footer.layout .footer-logo-layout {
     flex-direction: row;
     justify-content: start;
+ }
+
+ .socials {
+   display: flex;
+   justify-items: center;
+  
+   padding-left: 500px;
+ }
+
+ .end {
+   padding-left: 800px;
  }
